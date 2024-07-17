@@ -42,6 +42,7 @@ body {
     background-color: var(--dark1);
     height: 100vh;
     font-family: 'Lato';
+    font-size: 1.075rem;
 }
 
 header {
@@ -138,6 +139,7 @@ strong {
 
 .first-section p {
     color: var(--white);
+    
 }
 
 .box-img-main {
