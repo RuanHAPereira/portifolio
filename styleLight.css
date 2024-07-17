@@ -1,0 +1,68 @@
+/* Estilos do tema claro */
+body.light-theme {
+    background-color: var(--light1);
+    color: var(--dark1);
+}
+
+body.light-theme header {
+    background-color: var(--light6);
+}
+
+body.light-theme .nav-links {
+    color: var(--dark1);
+}
+
+body.light-theme .nav-links:hover {
+    color: var(--dark4);
+}
+
+body.light-theme .btn-action {
+    border: 1px solid var(--dark1);
+    color: var(--dark1);
+}
+
+body.light-theme .btn-action:hover {
+    background-color: var(--light3);
+    border: 1px solid var(--light3);
+}
+
+body.light-theme h1 {
+    color: var(--dark1);
+}
+
+body.light-theme strong {
+    color: var(--cyan1);
+}
+
+body.light-theme .first-section p {
+    color: var(--dark1);
+}
+
+body.light-theme .second-section,
+body.light-theme .fourth-section {
+    background-color: var(--light2);
+}
+
+body.light-theme .second-section ul li {
+    color: var(--dark1);
+}
+
+body.light-theme .second-section ul li:hover {
+    color: var(--dark4);
+}
+
+body.light-theme .title {
+    color: var(--dark1);
+}
+
+body.light-theme .third-section > div p {
+    color: var(--dark1);
+}
+
+body.light-theme #my-projects-list a {
+    color: var(--dark1);
+}
+
+body.light-theme #my-projects-list a:hover {
+    color: var(--dark4);
+}
