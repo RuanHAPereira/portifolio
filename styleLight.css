@@ -88,6 +88,6 @@ body.light-theme footer p {
     color: var(--dark1);
 }
 
-footer .light-theme > div p {
-    color: var(--dark1);
+body.light-theme svg {
+    fill: var(--dark1); /* Escolha a cor desejada */
 }
