@@ -1,4 +1,21 @@
 /* Estilos do tema claro */
+:root {
+    --white: #fff;
+    --dark1: #34344e;
+    --dark2: #3a415a;
+    --dark3: #566981;
+    --dark4: #89a7b1;
+    --dark5: #cbdad5;
+    --dark6: #2f2f46;
+    --cyan1: #70e3ea;
+    --light1: #f0f0f0;
+    --light2: #ffffff;
+    --light3: #d1d1d1;
+    --light4: #a1a1a1;
+    --light5: #707070;
+    --light6: #e0e0e0;
+}
+
 body.light-theme {
     background-color: var(--light1);
     color: var(--dark1);
@@ -65,4 +82,12 @@ body.light-theme #my-projects-list a {
 
 body.light-theme #my-projects-list a:hover {
     color: var(--dark4);
+}
+
+body.light-theme footer p {
+    color: var(--dark1);
+}
+
+footer .light-theme > div p {
+    color: var(--dark1);
 }

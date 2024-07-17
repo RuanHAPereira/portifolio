@@ -216,7 +216,7 @@ footer {
     gap: 2rem;
 }
 
-footer > div {
+footer > div,a {
     display: flex;
     justify-content: center;
     align-items: center;
